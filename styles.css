@@ -1,0 +1,40 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.flex-example {
+    margin: 20px 0;
+}
+
+.example-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Exemplo display: flex */
+.display-flex {
+    display: flex;
+}
+
+/* Exemplo flex-direction: row */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Imagens */
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
