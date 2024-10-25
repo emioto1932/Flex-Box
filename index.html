@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <h1>Exemplos de Flexbox</h1>
-    <p>Explore as propriedades do Flexbox aplicadas a um container com quatro imagens.</p>
+    <p>Explore as principais propriedades do Flexbox aplicadas a um container com quatro imagens.</p>
 
-    <!-- Display flex -->
+    <!-- Display: flex -->
     <section class="flex-example">
         <h2>display: flex</h2>
-        <p>Transforma o container em um flex container, os elementos-filhos são colocados em um contexto flexível.</p>
+        <p>Define o container como um flex container.</p>
         <div class="example-container display-flex">
             <img src="imagem1.jpg" alt="Imagem 1">
             <img src="imagem2.jpg" alt="Imagem 2">
@@ -23,10 +22,10 @@
         </div>
     </section>
 
-    <!-- Flex direction -->
+    <!-- flex-direction -->
     <section class="flex-example">
-        <h2>flex-direction</h2>
-        <p>Define a direção principal ao longo da qual os itens flexíveis são dispostos.</p>
+        <h2>flex-direction: row</h2>
+        <p>Define a direção principal na horizontal (linha).</p>
         <div class="example-container flex-row">
             <img src="imagem1.jpg" alt="Imagem 1">
             <img src="imagem2.jpg" alt="Imagem 2">
@@ -35,8 +34,40 @@
         </div>
     </section>
 
-    <!-- Outras propriedades -->
-    <!-- Cada uma das propriedades será demonstrada com uma nova section -->
+    <!-- justify-content -->
+    <section class="flex-example">
+        <h2>justify-content: space-around</h2>
+        <p>Distribui os itens com espaços iguais ao redor.</p>
+        <div class="example-container justify-around">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+    </section>
 
+    <!-- align-items -->
+    <section class="flex-example">
+        <h2>align-items: center</h2>
+        <p>Alinha os itens no centro do eixo transversal (vertical).</p>
+        <div class="example-container align-center">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+    </section>
+
+    <!-- flex-wrap -->
+    <section class="flex-example">
+        <h2>flex-wrap: wrap</h2>
+        <p>Permite que os itens quebrem linha se não houver espaço suficiente.</p>
+        <div class="example-container flex-wrap">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+    </section>
 </body>
 </html>
