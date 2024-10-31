@@ -103,19 +103,19 @@ h1 {
 }
 
 /* Align-content */
-.align-content-start {
+.align-start {
     align-content:flex-start;
 }
 
-.align-content-end {
+.align-end {
     align-content:flex-end;
 }
 
-.align-content-center {
+.align-center {
     align-content:center;
 }
 
-.align-content-stretch {
+.align-stretch {
     align-content:stretch;
 }
 
