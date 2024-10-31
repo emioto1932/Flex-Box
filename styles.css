@@ -66,22 +66,22 @@ h1 {
 /* Align-items */
 .align-start {
     display: flex;
-    align-items:flex-start;
+    align-content:flex-start;
 }
 
 .align-end {
     display: flex;
-    align-items:flex-end;
+    align-content:flex-end;
 }
 
 .align-center {
     display: flex;
-    align-items:center;
+    align-content:center;
 }
 
 .align-stretch {
     display: flex;
-    align-items:stretch;
+    align-content:stretch;
 }
 
 /* Flex-wrap */
