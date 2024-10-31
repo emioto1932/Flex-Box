@@ -120,9 +120,8 @@ h1 {
 }
 
 img {
-    max-width: 100%; /* Impede que a imagem ultrapasse a largura do contêiner */
-    max-height: 100%; /* Impede que a imagem ultrapasse a altura do contêiner */
-    object-fit: contain; /* Mantém a proporção da imagem dentro do contêiner */
+    width: auto; /* Impede que a imagem ultrapasse a largura do contêiner */
+    max-height: auto; /* Impede que a imagem ultrapasse a altura do contêiner */
     margin: 5px; /* Espaço entre as imagens */
 }
 
