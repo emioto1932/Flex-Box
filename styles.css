@@ -32,6 +32,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.container-align {
+    height: 150px;
+}
+
 /* Exemplo display: flex */
 .display-flex {
     display:flex;
@@ -65,23 +69,19 @@ h1 {
 
 /* Align-items */
 .align-start {
-    height: 150px;
     align-items:flex-start;
 }
 
 .align-end {
-    height: 150px;
     align-items:flex-end;
 }
 
 .align-center {
-    height: 150px;
     align-items:center;
 }
 
 .align-stretch {
-    height: 150px;
-    align-items:stretch;
+   align-items:stretch;
 }
 
 /* Flex-wrap */
