@@ -30,7 +30,6 @@ h1 {
     align-items: center;
     width: 90vw; /* Largura responsiva */
     height: auto; /* Altura ajustável */
-    max-width: 100%;
     padding: 10px;
     border: 2px solid #ddd; /* Apenas para visualização */
     box-sizing: border-box;
