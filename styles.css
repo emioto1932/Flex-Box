@@ -96,17 +96,16 @@ h1 {
 }
 
 .shrink {
-    flex-shrink: 2; /* Este item encolhe com o dobro da proporção dos outros itens */
+    flex-shrink: 3; /* Este item encolhe com o dobro da proporção dos outros itens */
 }
 
 .basis {
-    flex-basis: 400px; /* Este item começa com 400px */
+    flex-basis: 20px; /* Este item começa com 400px */
 }
 
 .item {
-    flex-grow: 0; /* Não cresce */
-    flex-shrink: 1; /* Pode encolher */
-    flex-basis: auto; /* Tamanho baseado no conteúdo */
+    flex-grow: 3; /* Não cresce */
+    flex-shrink: 3; /* Pode encolher */
 }
 
 img {
