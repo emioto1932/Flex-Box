@@ -93,18 +93,18 @@ h1 {
 
 .grow {
     flex-grow: 1; /* Este item cresce para ocupar espaço extra */
-    flex-basis: 200px; /* Tamanho inicial de 200px */
+    /*flex-basis: 200px;  Tamanho inicial de 200px */
     background-color: #f0f0f0; /* Fundo para visualização */
 }
 
 .shrink {
     flex-shrink: 2; /* Este item encolhe com o dobro da proporção dos outros itens */
-    flex-basis: 200px; /* Tamanho inicial de 200px */
+ /*   flex-basis: 200px;  Tamanho inicial de 200px */
     background-color: #d0f0c0; /* Fundo para visualização */
 }
 
 .basis {
-    flex-basis: 200px; /* Este item começa com 200px */
+  /*  flex-basis: 200px; Este item começa com 200px */
     flex-shrink: 1; /* Pode encolher normalmente */
     background-color: #f0d0c0; /* Fundo para visualização */
 }
@@ -112,7 +112,7 @@ h1 {
 .item {
     flex-grow: 0; /* Não cresce */
     flex-shrink: 1; /* Pode encolher */
-    flex-basis: 200px; /* Tamanho inicial de 200px */
+ /*   flex-basis: 200px;  Tamanho inicial de 200px */
     background-color: #c0d0f0; /* Fundo para visualização */
 }
 
