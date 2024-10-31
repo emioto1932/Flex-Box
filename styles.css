@@ -64,19 +64,19 @@ h1 {
 }
 
 /* Align-items */
-.align-content-start {
+.align-start {
     align-items:flex-start;
 }
 
-.align-content-end {
+.align-end {
     align-items:flex-end;
 }
 
-.align-content-center {
+.align-center {
     align-items:center;
 }
 
-.align-content-stretch {
+.align-stretch {
     align-items:stretch;
 }
 
