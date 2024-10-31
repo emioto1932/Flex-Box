@@ -120,8 +120,10 @@ h1 {
 }
 
 img {
-    width: 100%; /* Garante que as imagens não excedam o tamanho do container */
-    height: 100%; /* Mantém a proporção das imagens */
+    max-width: 100%; /* Impede que a imagem ultrapasse a largura do contêiner */
+    max-height: 100%; /* Impede que a imagem ultrapasse a altura do contêiner */
+    object-fit: contain; /* Mantém a proporção da imagem dentro do contêiner */
+    margin: 5px; /* Espaço entre as imagens */
 }
 
 
@@ -149,8 +151,6 @@ img {
 }
 
 .container img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 4px;
 }
