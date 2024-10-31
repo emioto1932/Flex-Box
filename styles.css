@@ -115,7 +115,7 @@ h1 {
 
 .item {
     flex-grow: 0; /* Não cresce */
-    flex-shrink: 1; /* Pode encolher */
+
  /*   flex-basis: 200px;  Tamanho inicial de 200px */
     background-color: #c0d0f0; /* Fundo para visualização */
 }
