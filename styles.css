@@ -95,11 +95,11 @@ h1 {
 }
 
 .shrink img {
-    flex-shrink:1;
+    flex-shrink:2;
 }
 
 .basis img {
-    flex-basis: 50px;
+    flex-basis: 200px;
 }
 
 /* Align-content */
