@@ -65,18 +65,22 @@ h1 {
 
 /* Align-items */
 .align-start {
+    display: flex;
     align-items:flex-start;
 }
 
 .align-end {
+    display: flex;
     align-items:flex-end;
 }
 
 .align-center {
+    display: flex;
     align-items:center;
 }
 
 .align-stretch {
+    display: flex;
     align-items:stretch;
 }
 
