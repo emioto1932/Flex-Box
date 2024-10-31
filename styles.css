@@ -50,6 +50,7 @@ h1 {
 /* align-items */
 .align-center {
     align-items: center;
+    height: 150px; /* Define altura para demonstrar alinhamento vertical */
 }
 
 /* flex-wrap */
