@@ -69,18 +69,18 @@ h1 {
 
 /* Align-items */
 .align-start {
-    align-self:flex-start;
+    align-items:flex-start;
 }
 
 .align-end {
-    align-self:flex-end;
+   align-items:flex-end;
 }
 
 .align-center {
-    align-self:center;
+    align-items:center;
 }
 .align-stretch {
-   align-self:stretch;
+   align-items:stretch;
 }
 
 /* Flex-wrap */
