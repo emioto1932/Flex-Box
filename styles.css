@@ -1,62 +1,70 @@
-/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    margin-top: 20px;
 }
 
-.flex-example {
-    margin: 20px 0;
-}
-
-.example-container {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-top: 10px;
-    min-height: 150px;
+.container {
     display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #ccc;
+    flex-wrap: nowrap;
 }
 
-/* Imagens */
-img {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.container h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px;
 }
 
-/* Propriedades do Flexbox */
-
-/* Display: flex */
+/* display: flex */
 .display-flex {
     display: flex;
 }
 
-/* Flex-direction: column */
-.flex-column {
-    display: flex;
+/* flex-direction */
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
     flex-direction: column;
 }
 
-/* Flex-direction: row-reverse */
-.flex-row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
+/* justify-content */
+.justify-center {
+    justify-content: center;
 }
 
-/* Justify-content: flex-end (alinha os itens à direita) */
-.justify-end {
-    display: flex;
-    justify-content: flex-end;
+.justify-space-between {
+    justify-content: space-between;
 }
 
-/* Align-items: flex-end (alinha os itens no final do eixo vertical) */
-.align-end {
-    display: flex;
-    align-items: flex-end;
+/* align-items */
+.align-center {
+    align-items: center;
+}
+
+/* flex-wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* flex-grow */
+.flex-grow div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }
