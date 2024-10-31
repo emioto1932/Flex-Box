@@ -1,83 +1,163 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplos de Flexbox</title>
+    <title>Exemplos Flexbox</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Exemplos das Propriedades Flexbox</h1>
+    <h1>Exemplos de Propriedades Flexbox</h1>
 
-    <!-- display: flex -->
-    <section class="container display-flex">
+    <!-- Display: flex -->
+    <section class="example">
         <h2>display: flex</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+        <p>Define o container como um flex container.</p>
+        <div class="container display-flex">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <!-- flex-direction -->
-    <section class="container flex-direction-row">
-        <h2>flex-direction: row</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Flex-direction -->
+    <section class="example">
+        <h2>flex-direction</h2>
+        <p>Define a direção dos itens no container.</p>
+        <div class="container flex-direction-row">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container flex-direction-column">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <section class="container flex-direction-column">
-        <h2>flex-direction: column</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Justify-content -->
+    <section class="example">
+        <h2>justify-content</h2>
+        <p>Alinhamento horizontal dos itens.</p>
+        <div class="container justify-start">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container justify-end">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container justify-center">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container justify-space-between">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <!-- justify-content -->
-    <section class="container justify-center">
-        <h2>justify-content: center</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Align-items -->
+    <section class="example">
+        <h2>align-items</h2>
+        <p>Alinhamento vertical dos itens.</p>
+        <div class="container align-start">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container align-end">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container align-center">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container align-stretch">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <section class="container justify-space-between">
-        <h2>justify-content: space-between</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Flex-wrap -->
+    <section class="example">
+        <h2>flex-wrap</h2>
+        <p>Define se os itens devem quebrar linha.</p>
+        <div class="container wrap">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container nowrap">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <!-- align-items -->
-    <section class="container align-center">
-        <h2>align-items: center</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Flex-grow, flex-shrink, flex-basis -->
+    <section class="example">
+        <h2>flex-grow, flex-shrink, flex-basis</h2>
+        <p>Controle de tamanho flexível dos itens.</p>
+        <div class="container grow">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container shrink">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container basis">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
-    <!-- flex-wrap -->
-    <section class="container flex-wrap">
-        <h2>flex-wrap: wrap</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
-    </section>
-
-    <!-- flex-grow -->
-    <section class="container flex-grow">
-        <h2>flex-grow: 1</h2>
-        <div><img src="imagem1.jpg" alt="Imagem 1"></div>
-        <div><img src="imagem2.jpg" alt="Imagem 2"></div>
-        <div><img src="imagem3.jpg" alt="Imagem 3"></div>
-        <div><img src="imagem4.jpg" alt="Imagem 4"></div>
+    <!-- Align-content -->
+    <section class="example">
+        <h2>align-content</h2>
+        <p>Controle do espaçamento vertical em múltiplas linhas.</p>
+        <div class="container align-content-start">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
+        <div class="container align-content-end">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <img src="imagem4.jpg" alt="Imagem 4">
+        </div>
     </section>
 
 </body>
