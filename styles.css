@@ -91,10 +91,6 @@ h1 {
 
 /* Flex-grow, flex-shrink, flex-basis */
 
-.container {
-    display: flex; /* Define o container como flexível */
-}
-
 .grow {
     flex-grow: 1; /* Este item cresce para ocupar espaço extra */
 }
