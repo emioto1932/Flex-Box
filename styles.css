@@ -100,7 +100,7 @@ h1 {
 }
 
 .basis {
-    flex-basis: 200px; /* Este item começa com 200px */
+    flex-basis: 400px; /* Este item começa com 400px */
 }
 
 .item {
