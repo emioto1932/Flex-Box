@@ -90,17 +90,36 @@ h1 {
 }
 
 /* Flex-grow, flex-shrink, flex-basis */
-.grow img {
-    flex-grow:1;
+
+.container {
+    display: flex; /* Define o container como flexível */
 }
 
-.shrink img {
-    flex-shrink:2;
+.grow {
+    flex-grow: 1; /* Este item cresce para ocupar espaço extra */
 }
 
-.basis img {
-    flex-basis: 200px;
+.shrink {
+    flex-shrink: 2; /* Este item encolhe com o dobro da proporção dos outros itens */
 }
+
+.basis {
+    flex-basis: 200px; /* Este item começa com 200px */
+}
+
+.item {
+    flex-grow: 0; /* Não cresce */
+    flex-shrink: 1; /* Pode encolher */
+    flex-basis: auto; /* Tamanho baseado no conteúdo */
+}
+
+img {
+    max-width: 100%; /* Garante que as imagens não excedam o tamanho do container */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+
+
 
 /* Align-content */
 .align-start {
